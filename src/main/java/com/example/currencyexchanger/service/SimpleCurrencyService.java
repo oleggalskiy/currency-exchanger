@@ -1,11 +1,9 @@
 package com.example.currencyexchanger.service;
 
 import com.example.currencyexchanger.entity.Currency;
-import com.example.currencyexchanger.entity.ExchangeRate;
 import com.example.currencyexchanger.repository.CurrencyRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 

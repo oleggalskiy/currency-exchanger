@@ -1,7 +1,6 @@
 package com.example.currencyexchanger.service;
 
 import com.example.currencyexchanger.entity.Currency;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.math.BigDecimal;
 import java.util.List;
