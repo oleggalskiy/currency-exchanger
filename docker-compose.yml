@@ -4,6 +4,7 @@ services:
   postgres-db:
     image: 'postgres:15'
     environment:
+      POSTGRES_DB: currency_project
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: changeme
       PGDATA: /data/postgres
